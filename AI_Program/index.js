@@ -19,3 +19,4 @@ function Regx(str) {
 console.log(Regx('email').test('nihao@.com'))
 console.log(Regx('phone').test('12345678901'))
 console.log(Regx('idcard').test('123456789012345678'))
+
