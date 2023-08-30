@@ -28,6 +28,10 @@ git config --global http.proxy http://127.0.0.1:7890
 git config --global https.proxy http://127.0.0.1:7890
 ```
 
+若仍然无法使用GitHub Copilot，则需为Vscode配置代理
+![配置代理](./images/setting.png)
+
+
 取消代理
 
 ``` JavaScript
@@ -41,12 +45,3 @@ git config --global --unset https.proxy
 
 * Markdown Mind Map Preview
 * Markdown All in One
-
-
-我需要将给定文件夹中的所有Excel表数据，汇总到一个给定的Excel表中，请按照以下要求，编写Python：
-一、每个分表中有两个sheet，第一个是班级基本信息，第二个是班级学生成绩排名；
-二、班级基本信息sheet中，班级编号、教师姓名、班级人数、班长、教师姓名；
-三、班级成绩排名sheet中，第一列是序号、第二列是学号、第三列是学生姓名、第四列是成绩；
-四、总表只需要一个sheet，并且需将列设置为序号、班级编号、教师姓名、班级人数、班长、教师姓名、学号、学生姓名、成绩；
-五、班级编号、教师姓名、班级人数，必须要和每个学生的成绩信息一一对应；
-六、做一个程序运行进度条，表示已复制到的学生条目数。
