@@ -2,17 +2,36 @@
 
 ## 介绍
 
-* 编辑工具：VSCode
-* 版本管理：GitHub
-* 输入辅助：GitHub Copilot、ChatGPT
-* 笔记格式：Markdown
-* 思维导图：MindMap
+- 编辑工具：VSCode
+- 版本管理：GitHub
+- 输入辅助：GitHub Copilot、ChatGPT
+- 笔记格式：MarkDown
+- 思维导图：MindMap
 
 ## ChatGPT
 
+- 解答问题
+- 优化代码
+- 生成MarkDown
+
+## Copilot
+
+> 根据上下文，自动联网生成补充内容
+
+- Alt+\：行内建议代码
+- Alt+]：切换建议代码
+- ctrl+enter：打开提示面板选用10个意见代码中的一个
+
 ## MarkDown
 
+- 记录笔记内容
+- 生成MindMap
+- 生成HTML页面
+- 生成目录（可跳转）
+
 ## MindMap
+
+> 根据思路，汇总笔记，全局预览，查漏补缺
 
 ---
 
