@@ -28,7 +28,6 @@ exports.login = async (req, res, next) => {
 exports.register = async (req, res, next) => {
     try {
         // 获取请求体数据
-        console.log(req.body)
         // 数据验证
         // 验证通过，将数据保存到数据库
         let user = new User(req.body.user)
