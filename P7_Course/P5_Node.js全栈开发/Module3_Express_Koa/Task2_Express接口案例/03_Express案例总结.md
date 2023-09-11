@@ -39,7 +39,7 @@
 1. **app.js** -> 挂载路由router
 2. **路由 router**
    1. **挂载中间件middleware**
-      1. 权限校验：从请求头获取token数据，使用**工具util**封装的jwt解析token得到userId，与数据库中的userId比较，判断是否有权限
+      1. **权限校验Token Auth**：从请求头获取token数据（用户登录时使用jwt加密userId生成的token），使用**工具util**封装的jwt方法解析token得到userId，与数据库中的userId比较，判断是否有权限
       2. **数据校验validator**
          1. 使用第三方包（express-validator）校验字段格式
          2. 根据业务查询数据库校验数据是否存在或是否有权限
@@ -48,4 +48,3 @@
       2. 接收请求：req请求对象、res响应对象
       3. 处理请求：调用模型方法，增new Model()、删remove()、改save()、查find()，模型操作数据库
       4. 返回响应：res.send()、res.json()、res.status().send()、res.status().json()
-  
