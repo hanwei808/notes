@@ -96,7 +96,7 @@ const root = {
 app.use('/graphql', graphqlHTTP({
     schema,
     rootValue: root,
-    graphiql: true
+    graphql: true
 }))
 
 // 启动 web 服务
