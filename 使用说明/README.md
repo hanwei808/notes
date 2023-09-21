@@ -7,6 +7,7 @@
 - 输入辅助：GitHub Copilot、ChatGPT
 - 笔记格式：MarkDown
 - 思维导图：MindMap
+- 网站部署：自动化部署 HTML
 
 ## ChatGPT
 
@@ -33,6 +34,14 @@
 ## MindMap
 
 > 根据思路，汇总笔记，全局预览，查漏补缺
+
+## 网站部署
+
+- 根据MarkDown文件
+- 通过Vue插件解析生成HTML页面
+- 自动化部署上线
+- 远程访问页面
+- 浏览笔记
 
 ---
 
